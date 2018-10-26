@@ -42,6 +42,20 @@
 	"content": " What is an HTML Attribute?  Attributes provide additional information about the contents of the an element.\n They are placed in the opening tag\n They have two parts: name, value\n  Attribute Structure  Attribute Name\n Indicates what kind of extra information you are supplying to the browser about the content in the element characters within the brackets indicates the tags purpose  Attribute Value\n Information or setting for the attribute Is placed in double or single quotes   Example of a HTML Attribute  \u0026lt;img src=\u0026quot;mdn-logo-sm.png\u0026quot; alt=\u0026quot;MDN\u0026quot;\u0026gt;  An html element can have more than one html attribute. The above example has 2 html attributes: \u0026ldquo;src\u0026rdquo; \u0026amp; \u0026ldquo;alt\u0026rdquo;.\n The order of the html attributes does not matter\n "
 },
 {
+	"uri": "/02-css-basics/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Review HTML tags covered in prior class\n Learn about relative paths and how they differ from absolute paths\n Intro to css and learn how to add css to your site\n  "
+},
+{
+	"uri": "/03-css-selectors-box-model/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Understand Classes and IDs and how they are different\n Introduce CSS selectors\n Understand how CSS cascades\n Introduce the CSS Box Model\n Learn how to apply background images to your pages\n  "
+},
+{
 	"uri": "/01-html-basics/tag-overview/",
 	"title": "Tag Overview",
 	"tags": [],
@@ -70,6 +84,20 @@
 	"content": " Lesson 01 HTML Basics "
 },
 {
+	"uri": "/02-css-basics/agenda/",
+	"title": "Agenda",
+	"tags": [],
+	"description": "",
+	"content": " HTML Review Exercise\n Relative Paths\n Intro to CSS\n  "
+},
+{
+	"uri": "/03-css-selectors-box-model/agenda/",
+	"title": "Agenda",
+	"tags": [],
+	"description": "",
+	"content": " CSS Intro Review\n Classes and IDs\n CSS Selectors Overview\n Box Model\n Code Along: Tags \u0026amp; Boxes\n Lab: Fashion Blog\n  "
+},
+{
 	"uri": "/01-html-basics/code-along/",
 	"title": "Code Along",
 	"tags": [],
@@ -91,11 +119,60 @@
 	"content": " Tools Overview \u0026amp; Folder Organization\n Git Overview\n GitHub Tutorial\n  "
 },
 {
+	"uri": "/02-css-basics/html-review-exercise/",
+	"title": "Exercise - HTML Review",
+	"tags": [],
+	"description": "",
+	"content": " What Tag is it? Assignment: Review the image below of the html page below and identify what tags are being used.\nHere are some tags you should look up:\n nav hr  "
+},
+{
+	"uri": "/02-css-basics/relative-paths/",
+	"title": "Relative Paths",
+	"tags": [],
+	"description": "",
+	"content": " Relative Paths  Relative URLs can be used when linking to pages and files within your own website.\n Shorthand way of telling the browser where to find your files.\n Inform students that they have already seen this is use with the link tag when referencing a css file\n  Example Project with Multiple Folders/Files Navigating within the Same Folder Linking from music index page to the music reviews page\n\u0026lt;a href=\u0026quot;reviews.html\u0026quot;\u0026gt; Music Reviews \u0026lt;/a\u0026gt;  Navigating to a file in a Child Folder Linking from the homepage (top-level index.html) to the music listings page\n\u0026lt;a href=\u0026quot;music/listings.html\u0026quot;\u0026gt; Music Listings \u0026lt;/a\u0026gt;  Navigating to a file in a Grandchild Folder Linking from the homepage (top-level index.html) to the dvd reviews page\n\u0026lt;a href=\u0026quot;movies/dvds/reviews.html\u0026quot;\u0026gt; DVD Reviews \u0026lt;/a\u0026gt;  Navigating up to a file in a Parent Folder Linking from the music reviews page to the homepage (top-level index.html)\n\u0026lt;a href=\u0026quot;../index.html\u0026quot;\u0026gt; Home \u0026lt;/a\u0026gt;  Use ../ to move up exactly 1 level in the folder hierarchy\nNavigating up to a file in a Grandparent Folder Linking from the dvd reviews page to the homepage (top-level index.html)\n\u0026lt;a href=\u0026quot;../../index.html\u0026quot;\u0026gt; Home \u0026lt;/a\u0026gt;  Here we used ../../ to move up 2 levels in the folder hierarchy\n"
+},
+{
+	"uri": "/03-css-selectors-box-model/css-intro-review/",
+	"title": "CSS Intro Review",
+	"tags": [],
+	"description": "",
+	"content": " What is CSS?  Cascading Style Sheet\n Allows you to control design of page\n CSS allows you to create rules that specify how the content of an element should appear\n  p { color: black; }  Anatomy of a CSS Rule  p { color: black; } h1, h2, h3 { font-family: Arial; color: #191919; }  Adding CSS to your site There are three ways to add css to your site\n Inline (avoid!)\n Internal css using \u0026lt;style\u0026gt; tag (avoid!)\n External file\n  Add CSS using an external stylesheet (Recommended/Best Practice)  The use of external CSS stylesheets allows you to place all of your styles in a central location, any site-wide changes can be made in a single place\n A \u0026lt;link\u0026gt; tag must be used to connect a stylesheet to an html file\n  \u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Sample Page\u0026lt;/title\u0026gt; \u0026lt;link rel=\u0026quot;stylesheet\u0026quot; type=\u0026quot;text/css\u0026quot; href=\u0026quot;css/styles.css\u0026quot;\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;!-- other tags redacted for example --\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  //in css/styles.css body { font-family: Arial, sans-serif, serif; padding: 10px; } p { font-size: 14px; color: #333333; }  \u0026lt;link\u0026gt; Tag  Link tag is used to specify the relationship between an html file and an external file\n Here are some commonly used attributes for the \u0026lt;link\u0026gt; tag\n href: specifies the path to the external file\n rel: specifies the relationship between the HTML page and the file it is linked to. The value of this attribute should be stylesheet when linking to a CSS file\n type: specifies the type of document being linked to. This value should be \u0026ldquo;text/css\u0026rdquo;\n   The rel attribute is required when linking to css stylesheet\n"
+},
+{
+	"uri": "/03-css-selectors-box-model/lab/",
+	"title": "Lab",
+	"tags": [],
+	"description": "",
+	"content": " Lab: Fashion Blog  Work individually or in teams to recreate the html page depicted in the image below.\n The files for this lab can be found in the following folder: starter_code/fashion_blog\n  "
+},
+{
 	"uri": "/00-class-intro-tools-github/tools/",
 	"title": "Tools",
 	"tags": [],
 	"description": "",
 	"content": " Project Folders and Best Practices for project organization\n Saving and Opening Files Sublime\n Web Browser Check (Google Chrome)\n Slack\n Quick intro to Chrome Developer Tools\n  "
+},
+{
+	"uri": "/02-css-basics/",
+	"title": "CSS Basics",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 02 CSS Basics "
+},
+{
+	"uri": "/02-css-basics/css-intro/",
+	"title": "Intro to CSS",
+	"tags": [],
+	"description": "",
+	"content": " What is CSS?  Cascading Style Sheet\n Allows you to control design of page\n CSS allows you to create rules that specify how the content of an element should appear\n  p { color: black; }  Anatomy of a CSS Rule  p { color: black; } h1, h2, h3 { font-family: Arial; color: #191919; }  Adding CSS to your site There are three ways to add css to your site\n Inline (avoid!)\n Internal css using \u0026lt;style\u0026gt; tag (avoid!)\n External file\n  Inline CSS (avoid!)  This method involves adding styles directly to html elemments using a style attribute   \u0026lt;body style=\u0026quot;background-color: orange;\u0026quot;\u0026gt; \u0026lt;!-- other tags redacted for example --\u0026gt; \u0026lt;/body\u0026gt;  Internal CSS (avoid!)  This method involves adding styles directly to html elemments using a \u0026lt;style\u0026gt; tag  \u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Sample Page\u0026lt;/title\u0026gt; \u0026lt;style type=\u0026quot;text/css\u0026quot;\u0026gt; body { font-family: Arial; background-color: rgb(185, 179, 175); } h1 { color: rgb(255, 255, 255); } \u0026lt;/style\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;!-- other tags redacted for example --\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  Add CSS using an external stylesheet (Recommended/Best Practice)  The use of external CSS stylesheets allows you to place all of your styles in a central location, any site-wide changes can be made in a single place\n A \u0026lt;link\u0026gt; tag must be used to connect a stylesheet to an html file\n  \u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Sample Page\u0026lt;/title\u0026gt; \u0026lt;link rel=\u0026quot;stylesheet\u0026quot; type=\u0026quot;text/css\u0026quot; href=\u0026quot;css/styles.css\u0026quot;\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;!-- other tags redacted for example --\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  //in css/styles.css body { font-family: Arial, sans-serif, serif; padding: 10px; } p { font-size: 14px; color: #333333; }  \u0026lt;link\u0026gt; Tag  Link tag is used to specify the relationship between an html file and an external file\n Here are some commonly used attributes for the \u0026lt;link\u0026gt; tag\n href: specifies the path to the external file\n rel: specifies the relationship between the HTML page and the file it is linked to. The value of this attribute should be stylesheet when linking to a CSS file\n type: specifies the type of document being linked to. This value should be \u0026ldquo;text/css\u0026rdquo;\n   The rel attribute is required when linking to css stylesheet\n"
+},
+{
+	"uri": "/03-css-selectors-box-model/classes-and-ids/",
+	"title": "Classes and Ids",
+	"tags": [],
+	"description": "",
+	"content": " Classes and Ids  Both are just HTML attributes\n Should start with a letter or underscore\n Can be applied to any html element\n Important: Use of the class or id attribute by itself does not change the appearance of an element; CSS/Javascript must be involved\n  Class Attribute  Is used to group elements together, therefore establishing them as different from other elements on the page\n Element can share the same class attribute values (this could be applied to another type of element)\n   \u0026lt;!-- in html --\u0026gt; \u0026lt;p class='important'\u0026gt; Awesome content \u0026lt;/p\u0026gt;   // in css, use a period to specify a class selector in css .important { font-weight: bold; }  In css class selectors are specified using a . (period)\n Id Attribute  Used to uniquely identify elements on a page\n No two elements should have the same id value (otherwise it would not be unique)\n   \u0026lt;!-- in html --\u0026gt; \u0026lt;button id='add-task'\u0026gt; Add Task \u0026lt;/button\u0026gt;   // in css a '#' (hash) is used to specify an id selector #add-task { font-size: 12px; }  In css id selectors are specified using a # (hash)\n Naming classes and ids  Developers can choose any name they want for classes and ids, however the names you choose should be descriptive  When should you use classes instead of ids (or vice versa)?  Use classes if applying a general style to more than one element on the same page\n Use ids when you style element differently from any other instance of the same element\n Use ids when using javascript to precisely target elements\n  "
 },
 {
 	"uri": "/00-class-intro-tools-github/git-overview/",
@@ -105,11 +182,67 @@
 	"content": " What is Git?  Version control for Programmers\n Like Microsoft Word \u0026ldquo;Track Changes\u0026rdquo; feature with superpowers\n Makes it easy for programmers to collaborate and work on the same codebase\n SVN (subversion) and CVS are other version control programs (Git is the most popular)\n  What is Github?  Web-based Git repository hosting service\n Built on top of git\n Home to +90% of all open source projects\n Morphed into a \u0026ldquo;social network\u0026rdquo; for developers\n  Vocabulary  Repository Commit Branch Merge Push Pull Fork Clone Pull Request  Respository  Most basic element of GitHub\n A repository contains all of the project files\n Stores each file\u0026rsquo;s revision history\n Repositories can have multiple collaborators and can be either public or private.\n  Commit  A \u0026ldquo;revision\u0026rdquo;, is an individual change to a file (or set of files)\n Git\u0026rsquo;s version of \u0026ldquo;saving\u0026rdquo;\n Commits usually contain a commit message which is a brief description of what changes were made\n  Branch  Parallel version of a repository\n It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the \u0026ldquo;live\u0026rdquo; version.\n When you\u0026rsquo;ve made the changes you want to make, you can merge your branch back into the master branch to publish your changes\n  Merge  Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another\n This often happens as a Pull Request (which can be thought of as a request to merge)\n  Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  Fork  A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project\n Most commonly, forks are used to either propose changes to someone else\u0026rsquo;s project or to use someone else\u0026rsquo;s project as a starting point for your own idea\n  Clone  Copies a remote repository down to your computer and creates a link between the two  Pull Request  Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository\u0026rsquo;s collaborators. Pull requests each have their own discussion forum. See Using Pull Requests. Used to perform \u0026ldquo;Code Reviews\u0026rdquo; of other developers\u0026rsquo; work  Great resource for all things git can be found here\n "
 },
 {
+	"uri": "/03-css-selectors-box-model/",
+	"title": "CSS Selectors and CSS Box Model",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 03 CSS Selectors and CSS Box Model "
+},
+{
+	"uri": "/03-css-selectors-box-model/css-selectors/",
+	"title": "CSS Selectors",
+	"tags": [],
+	"description": "",
+	"content": " CSS Selectors Overview  Many different types of selectors that allow you to target rules to specific elements in an HTML document\n Selectors are case sensitive, must match element names and attributes exactly\n     Selector Meaning Example     Universal Selector Applies to all elements *{}   Type Selector Match elements names h1, h2, h3 {}   Class Selector Matches all elements with a class attribute value matching on specified after a period (.) .hint {}, p.hint {}   ID Selector Matches all elements with a id attribute value matching on specified after a hash (#) #offer {}   Child Selector Matches elements that are a direct child of another li \u0026gt; a {}   Descendant Selector Matches element that is a direct descendant of another (not just the child) p a {}   Adjacent Sibling Selector Matches first element that is a sibling of another h1+p {}   General Sibling Selector Matches all elements that is a sibling of another h1~p {}   Attribute Selector Attribute selectors select an element using the presence of a given attribute or attribute value input[type=\u0026quot;email\u0026quot;] {}    A complete list of all CSS Selectors can be found here\n "
+},
+{
 	"uri": "/00-class-intro-tools-github/github-tutorial/",
 	"title": "Git Tutorial",
 	"tags": [],
 	"description": "",
 	"content": " Initial Setup Step 1: Create a Github Account* *one-time step\n\u0026nbsp;\nStep 2: Download Github Desktop software* *one-time step\n\u0026nbsp;\nStep 3: Sign in to Github Account through the Github Desktop application  Github Desktop -\u0026gt; Preferences -\u0026gt; Accounts  *one-time step / Use your Github account username \u0026amp; password\n\u0026nbsp;\nStep 4: Create a folder named github in your \u0026ldquo;class\u0026rdquo; folder* *one-time step\n\u0026nbsp;\nStarting an Assignment Step 5a: Fork Instructor Repository  The link for the Instructor repository will be provided to you  \u0026nbsp;\nStep 5b: Fork Instructor Repository  Github will create a copy of the repo under your account  \u0026nbsp;\nStep 6: Confirm Repository was Successfully Forked \u0026nbsp;\nStep 7a: Clone Repository in Github \u0026nbsp;\nStep 7b: Click \u0026ldquo;Launch Application\u0026rdquo; button  This opens your Github Desktop application  \u0026nbsp;\nStep 7c: Select your \u0026ldquo;github\u0026rdquo; folder and click \u0026ldquo;clone\u0026rdquo;  This is where the project folder will live  \u0026nbsp;\nStep 8: Confirm Repo was created in Github Desktop \u0026nbsp;\nStep 9: Confirm project folder was created in \u0026ldquo;github\u0026rdquo; folder \u0026nbsp;\nStep 10a: Open project folder with sublime and add code (as you normally would) \u0026nbsp;\nStep 10b: View changes in Github Desktop \u0026nbsp;\nStep 11: Commit Your Changes \u0026nbsp;\nStep 12: Push your changes to Github.com \u0026nbsp;\nRepeat Steps 10 through 12 - as many times as needed\n \u0026nbsp;\nSubmitting Your Assignment Step 13a: Create a Pull Request in Github Desktop \u0026nbsp;\nStep 13b: Create a Pull Request in Github Desktop  Important: Pull request should be named: HW Submission from [Your Name]  \u0026nbsp;\nStep 13c: Create a Pull Request in Github Desktop \u0026nbsp;\nStep 14a: Confirm Creation of Pull Request on Github \u0026nbsp;\nStep 14b: Confirm Creation of Pull Request on Github \u0026nbsp;\nStep 14c: Confirm Creation of Pull Request on Github \u0026nbsp;\nReceive Feedback from Instructors Step 15a: Instructors will leave feedback and let you know what needs to be fixed  Hammer emojis indicate something that needs to be fixed  \u0026nbsp;\nStep 15b: Students can add comments of their own to get clarification \u0026nbsp;\nStep 16: Student Fixes Any Outstanding Issues (Hammer emojis) Repeat Steps 10 through 12\n Make your changes in sublime\n Commit your changes\n Push your changes\n  Do Not create a new Pull Request Your existing Pull Request will automatically be updated\n \u0026nbsp;\nStep 17: Instructor Reviews Changes  Instruction team will receive an email notification letting them know your Pull Request was updated Instruction team will confirm that \u0026ldquo;hammers\u0026rdquo; were addressed  \u0026nbsp;\nStep 18: Instructor Approves Your Assignment  Student will receive a \u0026ldquo;Thumbs Up\u0026rdquo; emoji indicating that the assignment was approved  "
+},
+{
+	"uri": "/03-css-selectors-box-model/css-cascading-guidelines/",
+	"title": "CSS Cascading Guidelines",
+	"tags": [],
+	"description": "",
+	"content": " How CSS Cascades There are guidelines that will determine which CSS rule takes precendent in the case of a conflict (when 2 or more css rules target the same selector)\n Last Rule\n Specificity\n Important\n Inheritance\n  Last Rule  When two or more css rules have identical selectors, the latter of the two rules takes precedent   // in css p { color: red; } p { color: green; }  \u0026lt;!-- in html --\u0026gt; \u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Sample Page\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;p\u0026gt; Color will be green\u0026lt;/p\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  Here the \u0026lt;p\u0026gt; tag wil be green because the last conflicting rule took precedent\nSpecificity  If one selector is more specific than others, then the more specific rule takes precedent\n For example:\n h1 is more specific than * p.discount is more specific than p #city is more specific than img.town   !important  You can override all the above rules by adding a “!important” after any property\n This should be used sparingly; excessive use of !important can cause confusion within your codebase\n  // in css #thing { color: green; } // add the !important option at the end of your declaration; p { color: red !important; }  \u0026lt;!-- in html --\u0026gt; \u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Sample Page\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;p id=\u0026quot;thing\u0026quot;\u0026gt;Will be RED and NOT Green\u0026lt;/p\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  Here we used the !important option in CSS to override the Specificity guideline that would have had the rule with the selector of #thing take precedence under normal circumstances\nInheritance  Certain CSS properties such as font-family, font-size, color will be inherited by child properties\n However, properties such as background color or border properties are not inherited\n Click here to see a full list inherited and non-inherited CSS properties\n  "
+},
+{
+	"uri": "/02-css-basics/code-along/",
+	"title": "Code Along",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Building an \u0026ldquo;About Me\u0026rdquo; page  As a class, we\u0026rsquo;ll walk through using html and css to build the \u0026ldquo;About Me\u0026rdquo; page depicted in the image below\n Using Sublime, open the folder called about_me_and_portfolio files for this exercise can be found in your starter_code folder\n  "
+},
+{
+	"uri": "/03-css-selectors-box-model/box-model/",
+	"title": "CSS Box Model",
+	"tags": [],
+	"description": "",
+	"content": " CSS Box Model  Understanding the CSS Box Model is key to understanding how CSS works\n Going forward, you should view every element as a box (because that\u0026rsquo;s how browsers view them)\n   Block elements in the image are outlined in red, while inline elements are outlined in green\n Every element is a box, some boxes contain other boxes \u0026lt;body\u0026gt;, \u0026lt;div\u0026gt; or \u0026lt;article\u0026gt;\n CSS allows you to create rules the control each individual box\n   tags are examples of block elements-- , , , -- Box Model consists of:  Margin\n Padding\n Border\n  Margin  Margins sit outside the edge of your border\n Create a gap between the edges of two adjacent boxes\n  Padding  Padding is the space between the border of a box and any content contained within it.\n Adding padding helps to increase readability of a box’s content\n  Border  Every box has a border, even if it is invisible (0 pixels wide)\n Borders separates the edge of one box from another\n  "
+},
+{
+	"uri": "/02-css-basics/lab/",
+	"title": "Lab",
+	"tags": [],
+	"description": "",
+	"content": " Lab: Start/Complete Portfolio Page  Individually or in teams to finishing the fictional developer\u0026rsquo;s site by building our their portfolio page (depicted in the image below)\n You will be adding a page to your existing about_me_and_portfolio project\n The \u0026ldquo;About Me\u0026rdquo; and \u0026ldquo;Porfolio\u0026rdquo; pages should be linked using a relative url\n  "
+},
+{
+	"uri": "/03-css-selectors-box-model/code-along/",
+	"title": "Code Along",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: Tags \u0026amp; Boxes  As a class, we\u0026rsquo;ll walk through seeing examples of the box model in action\n Using Sublime, open the folder called tags_boxes files for this exercise can be found in your starter_code folder\n  "
+},
+{
+	"uri": "/03-css-selectors-box-model/homework/",
+	"title": "Homework",
+	"tags": [],
+	"description": "",
+	"content": " Homework Assignment - Resume Website for a Famous Person Directions:\n Fork the following respository: Homework #1\n Review the assignment here\n Use process covered in the Git/Github Tutorial to submit your assignment\n  "
 },
 {
 	"uri": "/categories/",

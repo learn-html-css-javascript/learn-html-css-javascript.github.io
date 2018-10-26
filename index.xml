@@ -77,6 +77,32 @@ HTML document
     </item>
     
     <item>
+      <title>Objectives</title>
+      <link>/02-css-basics/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/02-css-basics/objectives/</guid>
+      <description> Review HTML tags covered in prior class
+ Learn about relative paths and how they differ from absolute paths
+ Intro to css and learn how to add css to your site
+  </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/03-css-selectors-box-model/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/objectives/</guid>
+      <description> Understand Classes and IDs and how they are different
+ Introduce CSS selectors
+ Understand how CSS cascades
+ Introduce the CSS Box Model
+ Learn how to apply background images to your pages
+  </description>
+    </item>
+    
+    <item>
       <title>Tag Overview</title>
       <link>/01-html-basics/tag-overview/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
@@ -109,6 +135,33 @@ HTML document
       <description> Introduce tools you will be using throughout the class
  Achieve high-level understanding of git and why developers use it
  Introduce students to a git workflow that will be used to submit (and receive feedback on) assignments
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>/02-css-basics/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/02-css-basics/agenda/</guid>
+      <description> HTML Review Exercise
+ Relative Paths
+ Intro to CSS
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>/03-css-selectors-box-model/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/agenda/</guid>
+      <description> CSS Intro Review
+ Classes and IDs
+ CSS Selectors Overview
+ Box Model
+ Code Along: Tags &amp;amp; Boxes
+ Lab: Fashion Blog
   </description>
     </item>
     
@@ -148,6 +201,52 @@ HTML document
     </item>
     
     <item>
+      <title>Exercise - HTML Review</title>
+      <link>/02-css-basics/html-review-exercise/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/html-review-exercise/</guid>
+      <description> What Tag is it? Assignment: Review the image below of the html page below and identify what tags are being used.
+Here are some tags you should look up:
+ nav hr  </description>
+    </item>
+    
+    <item>
+      <title>Relative Paths</title>
+      <link>/02-css-basics/relative-paths/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/relative-paths/</guid>
+      <description>Relative Paths  Relative URLs can be used when linking to pages and files within your own website.
+ Shorthand way of telling the browser where to find your files.
+ Inform students that they have already seen this is use with the link tag when referencing a css file
+  Example Project with Multiple Folders/Files Navigating within the Same Folder Linking from music index page to the music reviews page</description>
+    </item>
+    
+    <item>
+      <title>CSS Intro Review</title>
+      <link>/03-css-selectors-box-model/css-intro-review/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/css-intro-review/</guid>
+      <description>What is CSS?  Cascading Style Sheet
+ Allows you to control design of page
+ CSS allows you to create rules that specify how the content of an element should appear
+  p { color: black; }  Anatomy of a CSS Rule  p { color: black; } h1, h2, h3 { font-family: Arial; color: #191919; }  Adding CSS to your site There are three ways to add css to your site</description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>/03-css-selectors-box-model/lab/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/lab/</guid>
+      <description> Lab: Fashion Blog  Work individually or in teams to recreate the html page depicted in the image below.
+ The files for this lab can be found in the following folder: starter_code/fashion_blog
+  </description>
+    </item>
+    
+    <item>
       <title>Tools</title>
       <link>/00-class-intro-tools-github/tools/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
@@ -159,6 +258,31 @@ HTML document
  Slack
  Quick intro to Chrome Developer Tools
   </description>
+    </item>
+    
+    <item>
+      <title>Intro to CSS</title>
+      <link>/02-css-basics/css-intro/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/css-intro/</guid>
+      <description>What is CSS?  Cascading Style Sheet
+ Allows you to control design of page
+ CSS allows you to create rules that specify how the content of an element should appear
+  p { color: black; }  Anatomy of a CSS Rule  p { color: black; } h1, h2, h3 { font-family: Arial; color: #191919; }  Adding CSS to your site There are three ways to add css to your site</description>
+    </item>
+    
+    <item>
+      <title>Classes and Ids</title>
+      <link>/03-css-selectors-box-model/classes-and-ids/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/classes-and-ids/</guid>
+      <description>Classes and Ids  Both are just HTML attributes
+ Should start with a letter or underscore
+ Can be applied to any html element
+ Important: Use of the class or id attribute by itself does not change the appearance of an element; CSS/Javascript must be involved
+  Class Attribute  Is used to group elements together, therefore establishing them as different from other elements on the page</description>
     </item>
     
     <item>
@@ -177,6 +301,17 @@ HTML document
     </item>
     
     <item>
+      <title>CSS Selectors</title>
+      <link>/03-css-selectors-box-model/css-selectors/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/css-selectors/</guid>
+      <description>CSS Selectors Overview  Many different types of selectors that allow you to target rules to specific elements in an HTML document
+ Selectors are case sensitive, must match element names and attributes exactly
+     Selector Meaning Example     Universal Selector Applies to all elements *{}   Type Selector Match elements names h1, h2, h3 {}   Class Selector Matches all elements with a class attribute value matching on specified after a period (.</description>
+    </item>
+    
+    <item>
       <title>Git Tutorial</title>
       <link>/00-class-intro-tools-github/github-tutorial/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
@@ -191,6 +326,80 @@ Step 3: Sign in to Github Account through the Github Desktop application  Github
 Step 4: Create a folder named github in your &amp;ldquo;class&amp;rdquo; folder* *one-time step
 &amp;nbsp;
 Starting an Assignment Step 5a: Fork Instructor Repository  The link for the Instructor repository will be provided to you  &amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>CSS Cascading Guidelines</title>
+      <link>/03-css-selectors-box-model/css-cascading-guidelines/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/css-cascading-guidelines/</guid>
+      <description>How CSS Cascades There are guidelines that will determine which CSS rule takes precendent in the case of a conflict (when 2 or more css rules target the same selector)
+ Last Rule
+ Specificity
+ Important
+ Inheritance
+  Last Rule  When two or more css rules have identical selectors, the latter of the two rules takes precedent   // in css p { color: red; } p { color: green; }  &amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>/02-css-basics/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/code-along/</guid>
+      <description> Code Along: Building an &amp;ldquo;About Me&amp;rdquo; page  As a class, we&amp;rsquo;ll walk through using html and css to build the &amp;ldquo;About Me&amp;rdquo; page depicted in the image below
+ Using Sublime, open the folder called about_me_and_portfolio files for this exercise can be found in your starter_code folder
+  </description>
+    </item>
+    
+    <item>
+      <title>CSS Box Model</title>
+      <link>/03-css-selectors-box-model/box-model/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/box-model/</guid>
+      <description>CSS Box Model  Understanding the CSS Box Model is key to understanding how CSS works
+ Going forward, you should view every element as a box (because that&amp;rsquo;s how browsers view them)
+   Block elements in the image are outlined in red, while inline elements are outlined in green
+ Every element is a box, some boxes contain other boxes &amp;lt;body&amp;gt;, &amp;lt;div&amp;gt; or &amp;lt;article&amp;gt;
+ CSS allows you to create rules the control each individual box</description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>/02-css-basics/lab/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/lab/</guid>
+      <description> Lab: Start/Complete Portfolio Page  Individually or in teams to finishing the fictional developer&amp;rsquo;s site by building our their portfolio page (depicted in the image below)
+ You will be adding a page to your existing about_me_and_portfolio project
+ The &amp;ldquo;About Me&amp;rdquo; and &amp;ldquo;Porfolio&amp;rdquo; pages should be linked using a relative url
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>/03-css-selectors-box-model/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/code-along/</guid>
+      <description> Code Along: Tags &amp;amp; Boxes  As a class, we&amp;rsquo;ll walk through seeing examples of the box model in action
+ Using Sublime, open the folder called tags_boxes files for this exercise can be found in your starter_code folder
+  </description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>/03-css-selectors-box-model/homework/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/03-css-selectors-box-model/homework/</guid>
+      <description> Homework Assignment - Resume Website for a Famous Person Directions:
+ Fork the following respository: Homework #1
+ Review the assignment here
+ Use process covered in the Git/Github Tutorial to submit your assignment
+  </description>
     </item>
     
   </channel>

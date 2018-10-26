@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="../../images/favicon.png" type="image/x-icon" />
-    <title>Tag Overview :: Frontend Web Development</title>
+    <title>Intro to CSS :: Frontend Web Development</title>
 
     
     <link href="../../css/nucleus.css?1540586866" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/01-html-basics/tag-overview/">
+  <body class="" data-url="/02-css-basics/css-intro/">
     <nav id="sidebar" class="">
 
 
@@ -238,7 +238,7 @@
   
     
     <li data-nav-id="/01-html-basics/" title="HTML Basics" class="dd-item
-        parent
+        
         
         
         ">
@@ -357,7 +357,7 @@
  
   
     
-      <li data-nav-id="/01-html-basics/tag-overview/" title="Tag Overview" class="dd-item active">
+      <li data-nav-id="/01-html-basics/tag-overview/" title="Tag Overview" class="dd-item ">
         <a href="../../01-html-basics/tag-overview/">
         Tag Overview
         
@@ -441,7 +441,7 @@
   
     
     <li data-nav-id="/02-css-basics/" title="CSS Basics" class="dd-item
-        
+        parent
         
         
         ">
@@ -541,7 +541,7 @@
  
   
     
-      <li data-nav-id="/02-css-basics/css-intro/" title="Intro to CSS" class="dd-item ">
+      <li data-nav-id="/02-css-basics/css-intro/" title="Intro to CSS" class="dd-item active">
         <a href="../../02-css-basics/css-intro/">
         Intro to CSS
         
@@ -863,7 +863,7 @@
             
           
           
-            <a href='../../'>FEWD Course Slides</a> > <a href='../../01-html-basics/'>HTML Basics</a> > Tag Overview
+            <a href='../../'>FEWD Course Slides</a> > <a href='../../02-css-basics/'>CSS Basics</a> > Intro to CSS
           
         
           
@@ -880,7 +880,7 @@
         
         <div id="body-inner">
           
-            <h1>Tag Overview</h1>
+            <h1>Intro to CSS</h1>
           
 
         
@@ -888,274 +888,164 @@
 
 
 
-<h2 id="html-body-head-title"><code>&lt;html&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code></h2>
+<h2 id="what-is-css">What is CSS?</h2>
 
 <ul>
-<li><p><code>&lt;html&gt;</code></p>
+<li><p>Cascading Style Sheet</p></li>
 
-<ul>
-<li><p>Represents the root (top-level element) of an HTML document, so it is also referred to as the root element</p></li>
+<li><p>Allows you to control design of page</p></li>
 
-<li><p>All other elements must be <strong>descendants</strong> of this element.</p></li>
-</ul></li>
-
-<li><p><code>&lt;body&gt;</code></p>
-
-<ul>
-<li>Everything inside the body tag is shown inside the browser window</li>
-</ul></li>
-
-<li><p><code>&lt;head&gt;</code></p>
-
-<ul>
-<li><p>Contains information about the page (vs shown on the pages</p></li>
-
-<li><p>Title and Links to other files are usually specified in the head element</p></li>
-</ul></li>
-
-<li><p><code>&lt;title&gt;</code></p>
-
-<ul>
-<li><p>Text here is displayed in the top of the browser (or on the tab in Chrome or other browsers that use tabs)</p></li>
-
-<li><p>The title is also important for the purposes of SEO (Search Engine Optimization) as it is displayed in search results and communicates to visitors what your <a href="https://moz.com/learn/seo/title-tag">site is all about</a>.</p></li>
-</ul></li>
+<li><p>CSS allows you to create rules that specify how the content of an element should appear</p></li>
 </ul>
 
-<div class="notices tip" ><p>For more information about the importance of SEO, <a href="https://moz.com/learn/seo/what-is-seo">click here</a></p>
-</div>
-
-
-<div class="notices tip" ><p><code>&lt;title&gt;</code> is <strong>just one of many</strong> tags that can be placed inside of <code>&lt;head&gt;</code>, we&rsquo;ll see more of them as we go through the class, for more information click <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML">here</a></p>
-</div>
-
-
-<p><em>Example #1 Code</em></p>
-
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;!-- contains information about the page --&gt;
-    &lt;title&gt;&lt;/title&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;h1&gt;Main Heading&lt;/h1&gt;
-    &lt;p&gt;Some cool content&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
+<pre><code>p {
+  color: black;
+}
 
 </code></pre>
 
-<p><em>Example #1 HTML Output</em>
-<img src="../../images/01/html_structure_browser.png" alt="original left fit" /></p>
-
 <hr />
 
-<h2 id="html-headings">HTML Headings</h2>
+<h2 id="anatomy-of-a-css-rule">Anatomy of a CSS Rule</h2>
 
-<ul>
-<li>Six (6) levels of headings</li>
-<li>h1 tags is used for main headings</li>
-<li>h2 tags are used for subheadings</li>
-<li>Remaining level headings used as needed based on your content hierarchy</li>
-</ul>
+<p><img src="../../images/02/css_style_anatomy.png" alt="This is an image" /></p>
 
-<div class="notices info" ><p>Browsers display headings differently, but relative sizes will always be consistent (by default) - i.e. h1 will always be bigger than h2</p>
-</div>
+<pre><code>
+p {
+  color: black;
+}
 
 
-<p><em>Example #2 Code</em></p>
-
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;!-- contains information about the page --&gt;
-    &lt;title&gt;My page&lt;/title&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;h1&gt;Main Heading&lt;/h1&gt;
-    &lt;h2&gt;level 2 heading&lt;/h2&gt;
-    &lt;h3&gt;level 3 heading&lt;/h3&gt;
-    &lt;h4&gt;level 4 heading&lt;/h4&gt;
-    &lt;h5&gt;level 5 heading&lt;/h5&gt;
-    &lt;h6&gt;level 6 heading&lt;/h6&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-
-</code></pre>
-
-<p><em>Example #2 HTML Output</em>
-<img src="../../images/01/headings_browser.png" alt="original left fit" /></p>
-
-<hr />
-
-<h2 id="paragraphs">Paragraphs</h2>
-
-<ul>
-<li><p>Use <code>&lt;p&gt;</code> element to display paragraphs</p></li>
-
-<li><p>By default, browser displays each paragraph on a new line</p></li>
-</ul>
-
-<p><em>Example #2 Code</em></p>
-
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;!-- contains information about the page --&gt;
-    &lt;title&gt;My page&lt;/title&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;p&gt; This is a paragraph. Become familiar with it because you will be using it a lot.&lt;/p&gt;
-    &lt;p&gt;Content inside of a paragraph is displayed on separate lines&lt;/p&gt;
-    &lt;p&gt; The browser will view this line of text as separate from the other two paragraphs above, despite how it looks in the text editor&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
+h1, h2, h3 {
+  font-family: Arial;
+  color: #191919;
+}
 
 
 </code></pre>
 
-<p><em>Example #3 HTML Output</em></p>
-
-<p><img src="../../images/01/paragraphs_example_browser.png" alt="original left fit" /></p>
-
 <hr />
 
-<h2 id="lists">Lists</h2>
+<h2 id="adding-css-to-your-site">Adding CSS to your site</h2>
+
+<p>There are three ways to add css to your site</p>
 
 <ul>
-<li>3 different types of lists:
+<li><p>Inline (avoid!)</p></li>
 
-<ul>
-<li>Unordered - lists start with a bullet point by default</li>
-<li>Ordered - numbered lists</li>
-<li>Description - set of terms along with definition of those terms (not used often). Click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">here for more information about description lists</a></li>
-</ul></li>
-</ul>
+<li><p>Internal css using <code>&lt;style&gt;</code> tag (avoid!)</p></li>
 
-<p><em>Example #4 Code</em></p>
-
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;!-- contains information about the page --&gt;
-    &lt;title&gt;My page&lt;/title&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;!-- Unordered list --&gt;
-    &lt;ul&gt;
-      &lt;li&gt;one&lt;/li&gt;
-      &lt;li&gt;two&lt;/li&gt;
-      &lt;li&gt;three&lt;/li&gt;
-      &lt;li&gt;four&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-
-
-</code></pre>
-
-<p><em>Example #4 HTML Output</em></p>
-
-<p><img src="../../images/01/unordered_list_browser.png" alt="original left fit" /></p>
-
-<ul>
-<li><p>List items elements are the items within list, they use opening and closing tag</p></li>
-
-<li><p>list item elements are indented by default</p></li>
-
-<li><p>list items elements are always a child a list element (in this case the “unordered list” or ul element.</p></li>
+<li><p>External file</p></li>
 </ul>
 
 <hr />
 
-<h2 id="links">Links</h2>
+<h3 id="inline-css-avoid">Inline CSS (avoid!)</h3>
 
 <ul>
-<li><p>Links created using the <code>&lt;a&gt;</code> tag</p></li>
-
-<li><p>link tags use the href attribute (remember attributes come with a name and a value)</p></li>
-
-<li><p>The value of the href attribute is the location where the link will direct you after it has been clicked</p></li>
-</ul>
-
-<p><em>Example #5 Code</em></p>
-
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;!-- contains information about the page --&gt;
-    &lt;title&gt;My page&lt;/title&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;a href=&quot;http://www.cnn.com&quot;&gt; CNN &lt;/a&gt;
-    &lt;a href=&quot;/about_us.html&quot;&gt;About Us&lt;/a&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-
-</code></pre>
-
-<p><em>Example #5 HTML Output</em></p>
-
-<p><img src="../../images/01/links_browser.png" alt="original left fit" /></p>
-
-<hr />
-
-<h2 id="images">Images</h2>
-
-<ul>
-<li><p>Images are placed in a <code>&lt;img&gt;</code></p></li>
-
-<li><p>Empty element meaning there is no closing tag</p></li>
+<li>This method involves adding styles directly to html elemments using a <strong>style</strong> attribute</li>
 </ul>
 
 <pre><code>
-  &lt;img src=&quot;images/team_hands&quot; alt=&quot;a group of people touching hands in a star formation&quot; title=&quot;teamwork is awesome&quot;&gt;
+  &lt;body style=&quot;background-color: orange;&quot;&gt;
+    &lt;!-- other tags redacted for example --&gt;
+  &lt;/body&gt;
+
 
 </code></pre>
-
-<h3 id="image-attributes">Image Attributes</h3>
-
-<ul>
-<li><p>src - Tells browser where to find the image (may relative or absolute path)</p></li>
-
-<li><p>alt - Provides description of image for people who cannot see the image (accessibility)</p></li>
-
-<li><p>title - Used to provide additional information about the image. Most browsers will display this information in a tooltip.</p></li>
-</ul>
-
-<h3 id="image-file-formats">Image File Formats</h3>
-
-<ul>
-<li><p>.png - Supports transparency and semi-transparency, great for logos, icons, and repeating background tiles.  Almost always preferable to a gif.</p></li>
-
-<li><p>.gif - Can have basic transparency, typically a png is used instead</p></li>
-
-<li><p>.jpeg - No transparency, can be stored at different compression levels with varying amounts of &ldquo;lossy-ness&rdquo;, typically the best format for photos</p></li>
-</ul>
 
 <hr />
 
-<h2 id="many-more-tags">Many more tags</h2>
+<h3 id="internal-css-avoid">Internal CSS (avoid!)</h3>
 
-<pre><code>
-&lt;b&gt; Makes text bold&lt;/b&gt;
-&lt;i&gt; Italic text &lt;/i&gt;
+<ul>
+<li>This method involves adding styles directly to html elemments using a <code>&lt;style&gt;</code> tag</li>
+</ul>
 
-&lt;br/&gt; Used to break text within a paragraph
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Sample Page&lt;/title&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+      body {
+        font-family: Arial;
+        background-color: rgb(185, 179, 175);
+      }
 
-&lt;hr /&gt; Used to add a horizontal line to visually break up text
+      h1 {
+        color: rgb(255, 255, 255);
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;!-- other tags redacted for example --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
 
 </code></pre>
 
-<div class="notices tip" ><p>MDN (Mozilla Developer Network) is an excellent resource for all things HTML, CSS and Javascript. For a complete list of all tags avaiable click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">here</a></p>
-</div>
+<hr />
 
+<h3 id="add-css-using-an-external-stylesheet-recommended-best-practice">Add CSS using an external stylesheet (Recommended/Best Practice)</h3>
+
+<ul>
+<li><p>The use of external CSS stylesheets allows you to place all of your styles in a central location, any site-wide changes <strong>can be made in a single place</strong></p></li>
+
+<li><p>A <code>&lt;link&gt;</code> tag must be used to connect a stylesheet to an html file</p></li>
+</ul>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Sample Page&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/styles.css&quot;&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;!-- other tags redacted for example --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+
+</code></pre>
+
+<pre><code>//in css/styles.css
+
+body {
+  font-family: Arial, sans-serif, serif;
+  padding: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
+}
+
+
+
+</code></pre>
+
+<hr />
+
+<h3 id="link-tag"><code>&lt;link&gt;</code> Tag</h3>
+
+<ul>
+<li><p>Link tag is used to specify the relationship between an html file and an external file</p></li>
+
+<li><p>Here are some commonly used attributes for the <code>&lt;link&gt;</code> tag</p>
+
+<ul>
+<li><p><strong>href</strong>: specifies the path to the external file</p></li>
+
+<li><p><strong>rel</strong>: specifies the relationship between the HTML page and the file it is linked to. The value of this attribute should be stylesheet when linking to a CSS file</p></li>
+
+<li><p><strong>type</strong>: specifies the type of document being linked to. This value should be &ldquo;text/css&rdquo;</p></li>
+</ul></li>
+</ul>
+
+<p>The <code>rel</code> attribute is required when linking to css stylesheet</p>
 
 
 <footer class=" footline" >
@@ -1293,302 +1183,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                 
                 
 
@@ -1741,6 +1335,302 @@
             
         
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
             
             
@@ -1767,10 +1657,10 @@
 
 
         
-            <a class="nav nav-prev" href="../../01-html-basics/html-attributes/" title="HTML Attributes"> <i class="fas fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="../../02-css-basics/relative-paths/" title="Relative Paths"> <i class="fas fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="../../01-html-basics/empty-elements/" title="Empty Elements" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="../../02-css-basics/code-along/" title="Code Along" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
         
     </div>
 

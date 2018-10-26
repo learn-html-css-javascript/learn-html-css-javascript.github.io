@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS Basics on Frontend Web Development</title>
+    <link>/02-css-basics/</link>
+    <description>Recent content in CSS Basics on Frontend Web Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="/02-css-basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/02-css-basics/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/02-css-basics/objectives/</guid>
+      <description> Review HTML tags covered in prior class
+ Learn about relative paths and how they differ from absolute paths
+ Intro to css and learn how to add css to your site
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>/02-css-basics/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/02-css-basics/agenda/</guid>
+      <description> HTML Review Exercise
+ Relative Paths
+ Intro to CSS
+  </description>
+    </item>
+    
+    <item>
+      <title>Exercise - HTML Review</title>
+      <link>/02-css-basics/html-review-exercise/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/html-review-exercise/</guid>
+      <description> What Tag is it? Assignment: Review the image below of the html page below and identify what tags are being used.
+Here are some tags you should look up:
+ nav hr  </description>
+    </item>
+    
+    <item>
+      <title>Relative Paths</title>
+      <link>/02-css-basics/relative-paths/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/relative-paths/</guid>
+      <description>Relative Paths  Relative URLs can be used when linking to pages and files within your own website.
+ Shorthand way of telling the browser where to find your files.
+ Inform students that they have already seen this is use with the link tag when referencing a css file
+  Example Project with Multiple Folders/Files Navigating within the Same Folder Linking from music index page to the music reviews page</description>
+    </item>
+    
+    <item>
+      <title>Intro to CSS</title>
+      <link>/02-css-basics/css-intro/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/css-intro/</guid>
+      <description>What is CSS?  Cascading Style Sheet
+ Allows you to control design of page
+ CSS allows you to create rules that specify how the content of an element should appear
+  p { color: black; }  Anatomy of a CSS Rule  p { color: black; } h1, h2, h3 { font-family: Arial; color: #191919; }  Adding CSS to your site There are three ways to add css to your site</description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>/02-css-basics/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/code-along/</guid>
+      <description> Code Along: Building an &amp;ldquo;About Me&amp;rdquo; page  As a class, we&amp;rsquo;ll walk through using html and css to build the &amp;ldquo;About Me&amp;rdquo; page depicted in the image below
+ Using Sublime, open the folder called about_me_and_portfolio files for this exercise can be found in your starter_code folder
+  </description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>/02-css-basics/lab/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/02-css-basics/lab/</guid>
+      <description> Lab: Start/Complete Portfolio Page  Individually or in teams to finishing the fictional developer&amp;rsquo;s site by building our their portfolio page (depicted in the image below)
+ You will be adding a page to your existing about_me_and_portfolio project
+ The &amp;ldquo;About Me&amp;rdquo; and &amp;ldquo;Porfolio&amp;rdquo; pages should be linked using a relative url
+  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -33,6 +33,16 @@
   </url>
   
   <url>
+    <loc>/02-css-basics/objectives/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/objectives/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/01-html-basics/tag-overview/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
@@ -53,6 +63,16 @@
   </url>
   
   <url>
+    <loc>/02-css-basics/agenda/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/agenda/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/01-html-basics/code-along/</loc>
     <lastmod>2017-01-22T18:08:00-05:00</lastmod>
   </url>
@@ -68,7 +88,42 @@
   </url>
   
   <url>
+    <loc>/02-css-basics/html-review-exercise/</loc>
+    <lastmod>2017-01-22T18:08:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/relative-paths/</loc>
+    <lastmod>2017-01-22T18:08:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/css-intro-review/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/lab/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/00-class-intro-tools-github/tools/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/css-intro/</loc>
+    <lastmod>2017-01-22T18:08:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/classes-and-ids/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
@@ -78,7 +133,47 @@
   </url>
   
   <url>
+    <loc>/03-css-selectors-box-model/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/css-selectors/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/00-class-intro-tools-github/github-tutorial/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/css-cascading-guidelines/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/code-along/</loc>
+    <lastmod>2017-01-22T18:08:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/box-model/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/02-css-basics/lab/</loc>
+    <lastmod>2017-01-22T18:08:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/code-along/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/03-css-selectors-box-model/homework/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
