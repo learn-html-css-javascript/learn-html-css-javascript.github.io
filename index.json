@@ -1,0 +1,134 @@
+[
+{
+	"uri": "/01-html-basics/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Understand how web pages are structured\n Introduce some of the most frequently used html tags\n  "
+},
+{
+	"uri": "/01-html-basics/agenda/",
+	"title": "Agenda",
+	"tags": [],
+	"description": "",
+	"content": " HTML Structure\n Overview of basic HTML Tags\n Code Along (GA Press Release)\n Lab (Cookie Recipe)\n  "
+},
+{
+	"uri": "/01-html-basics/html-structure/",
+	"title": "HTML Structure",
+	"tags": [],
+	"description": "",
+	"content": "Front page of a newspaper\n Which elements stand out and why?\n What would happen if every word was the same size font?\n Structure helps readers better understand the stories written in the newspaper\n  Word document\nHTML document\n The above all have something in common - they are all documents\n The same principles that apply to newspapers and documents also apply to html pages\n Most important content should be displayed at the top with larger font\n  "
+},
+{
+	"uri": "/01-html-basics/html-tag-anatomy/",
+	"title": "HTML Tag Anatomy",
+	"tags": [],
+	"description": "",
+	"content": " What is a Tag?  Tags act like containers, they tell the browser what type of information lies between (aka the content) the opening and closing tag\n Opening Tag\n comprised of character(s) surrounded by less than and equal than signs (brackets) characters within the brackets indicates the tags purpose  Closing Tag\n Same as opening tag except closing tag contains a forward slash which informs browser that element has ended   Terms “tags” and “elements” are often used interchangeably\n Example  \u0026lt;a href=\u0026quot;http://www.cnn.com\u0026quot;\u0026gt; CNN \u0026lt;/a\u0026gt;  "
+},
+{
+	"uri": "/00-class-intro-tools-github/",
+	"title": "Class Intro, Git &amp; Github",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 00 Class intro, Git and Github Overview "
+},
+{
+	"uri": "/01-html-basics/html-attributes/",
+	"title": "HTML Attributes",
+	"tags": [],
+	"description": "",
+	"content": " What is an HTML Attribute?  Attributes provide additional information about the contents of the an element.\n They are placed in the opening tag\n They have two parts: name, value\n  Attribute Structure  Attribute Name\n Indicates what kind of extra information you are supplying to the browser about the content in the element characters within the brackets indicates the tags purpose  Attribute Value\n Information or setting for the attribute Is placed in double or single quotes   Example of a HTML Attribute  \u0026lt;img src=\u0026quot;mdn-logo-sm.png\u0026quot; alt=\u0026quot;MDN\u0026quot;\u0026gt;  An html element can have more than one html attribute. The above example has 2 html attributes: \u0026ldquo;src\u0026rdquo; \u0026amp; \u0026ldquo;alt\u0026rdquo;.\n The order of the html attributes does not matter\n "
+},
+{
+	"uri": "/01-html-basics/tag-overview/",
+	"title": "Tag Overview",
+	"tags": [],
+	"description": "",
+	"content": " \u0026lt;html\u0026gt;, \u0026lt;body\u0026gt;, \u0026lt;head\u0026gt;, \u0026lt;title\u0026gt;  \u0026lt;html\u0026gt;\n Represents the root (top-level element) of an HTML document, so it is also referred to as the root element\n All other elements must be descendants of this element.\n  \u0026lt;body\u0026gt;\n Everything inside the body tag is shown inside the browser window  \u0026lt;head\u0026gt;\n Contains information about the page (vs shown on the pages\n Title and Links to other files are usually specified in the head element\n  \u0026lt;title\u0026gt;\n Text here is displayed in the top of the browser (or on the tab in Chrome or other browsers that use tabs)\n The title is also important for the purposes of SEO (Search Engine Optimization) as it is displayed in search results and communicates to visitors what your site is all about.\n   For more information about the importance of SEO, click here\n \u0026lt;title\u0026gt; is just one of many tags that can be placed inside of \u0026lt;head\u0026gt;, we\u0026rsquo;ll see more of them as we go through the class, for more information click here\n Example #1 Code\n\u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;!-- contains information about the page --\u0026gt; \u0026lt;title\u0026gt;\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;h1\u0026gt;Main Heading\u0026lt;/h1\u0026gt; \u0026lt;p\u0026gt;Some cool content\u0026lt;/p\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  Example #1 HTML Output HTML Headings  Six (6) levels of headings h1 tags is used for main headings h2 tags are used for subheadings Remaining level headings used as needed based on your content hierarchy  Browsers display headings differently, but relative sizes will always be consistent (by default) - i.e. h1 will always be bigger than h2\n Example #2 Code\n\u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;!-- contains information about the page --\u0026gt; \u0026lt;title\u0026gt;My page\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;h1\u0026gt;Main Heading\u0026lt;/h1\u0026gt; \u0026lt;h2\u0026gt;level 2 heading\u0026lt;/h2\u0026gt; \u0026lt;h3\u0026gt;level 3 heading\u0026lt;/h3\u0026gt; \u0026lt;h4\u0026gt;level 4 heading\u0026lt;/h4\u0026gt; \u0026lt;h5\u0026gt;level 5 heading\u0026lt;/h5\u0026gt; \u0026lt;h6\u0026gt;level 6 heading\u0026lt;/h6\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  Example #2 HTML Output Paragraphs  Use \u0026lt;p\u0026gt; element to display paragraphs\n By default, browser displays each paragraph on a new line\n  Example #2 Code\n\u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;!-- contains information about the page --\u0026gt; \u0026lt;title\u0026gt;My page\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;p\u0026gt; This is a paragraph. Become familiar with it because you will be using it a lot.\u0026lt;/p\u0026gt; \u0026lt;p\u0026gt;Content inside of a paragraph is displayed on separate lines\u0026lt;/p\u0026gt; \u0026lt;p\u0026gt; The browser will view this line of text as separate from the other two paragraphs above, despite how it looks in the text editor\u0026lt;/p\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  Example #3 HTML Output\nLists  3 different types of lists:  Unordered - lists start with a bullet point by default Ordered - numbered lists Description - set of terms along with definition of those terms (not used often). Click here for more information about description lists   Example #4 Code\n\u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;!-- contains information about the page --\u0026gt; \u0026lt;title\u0026gt;My page\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;!-- Unordered list --\u0026gt; \u0026lt;ul\u0026gt; \u0026lt;li\u0026gt;one\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;two\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;three\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;four\u0026lt;/li\u0026gt; \u0026lt;/ul\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  Example #4 HTML Output\n List items elements are the items within list, they use opening and closing tag\n list item elements are indented by default\n list items elements are always a child a list element (in this case the “unordered list” or ul element.\n  Links  Links created using the \u0026lt;a\u0026gt; tag\n link tags use the href attribute (remember attributes come with a name and a value)\n The value of the href attribute is the location where the link will direct you after it has been clicked\n  Example #5 Code\n\u0026lt;!DOCTYPE html\u0026gt; \u0026lt;html\u0026gt; \u0026lt;head\u0026gt; \u0026lt;!-- contains information about the page --\u0026gt; \u0026lt;title\u0026gt;My page\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;a href=\u0026quot;http://www.cnn.com\u0026quot;\u0026gt; CNN \u0026lt;/a\u0026gt; \u0026lt;a href=\u0026quot;/about_us.html\u0026quot;\u0026gt;About Us\u0026lt;/a\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt;  Example #5 HTML Output\nImages  Images are placed in a \u0026lt;img\u0026gt;\n Empty element meaning there is no closing tag\n   \u0026lt;img src=\u0026quot;images/team_hands\u0026quot; alt=\u0026quot;a group of people touching hands in a star formation\u0026quot; title=\u0026quot;teamwork is awesome\u0026quot;\u0026gt;  Image Attributes  src - Tells browser where to find the image (may relative or absolute path)\n alt - Provides description of image for people who cannot see the image (accessibility)\n title - Used to provide additional information about the image. Most browsers will display this information in a tooltip.\n  Image File Formats  .png - Supports transparency and semi-transparency, great for logos, icons, and repeating background tiles. Almost always preferable to a gif.\n .gif - Can have basic transparency, typically a png is used instead\n .jpeg - No transparency, can be stored at different compression levels with varying amounts of \u0026ldquo;lossy-ness\u0026rdquo;, typically the best format for photos\n  Many more tags  \u0026lt;b\u0026gt; Makes text bold\u0026lt;/b\u0026gt; \u0026lt;i\u0026gt; Italic text \u0026lt;/i\u0026gt; \u0026lt;br/\u0026gt; Used to break text within a paragraph \u0026lt;hr /\u0026gt; Used to add a horizontal line to visually break up text  MDN (Mozilla Developer Network) is an excellent resource for all things HTML, CSS and Javascript. For a complete list of all tags avaiable click here\n "
+},
+{
+	"uri": "/01-html-basics/empty-elements/",
+	"title": "Empty Elements",
+	"tags": [],
+	"description": "",
+	"content": " What are Empty Elements?  Empty elements are elements that do not have a closing tag  \u0026lt;!-- p tags are NOT empty elements because they have a closing tag (\u0026quot;\u0026lt;/p\u0026gt;\u0026quot;) --\u0026gt; \u0026lt;p\u0026gt; I am not an empty element \u0026lt;/p\u0026gt; \u0026lt;!-- img tags are considered empty elements because they DO NOT have a closing tag --\u0026gt; \u0026lt;img src=\u0026quot;images/team_hands\u0026quot; alt=\u0026quot;a group of people touching hands in a star formation\u0026quot; title=\u0026quot;teamwork is awesome\u0026quot;\u0026gt;   Empty elements cannot contain child elements (i.e. elements cannot be nested inside of an empty element)\n Empty elements are sometimes referred to as \u0026ldquo;self-closing tags\u0026rdquo;\n  Which elements are considered Empty Elements? The following is a list of all the Empty Elements found in HTML:\n \u0026lt;area\u0026gt; \u0026lt;base\u0026gt; \u0026lt;br\u0026gt; \u0026lt;col\u0026gt; \u0026lt;embed\u0026gt; \u0026lt;hr\u0026gt; \u0026lt;img\u0026gt; \u0026lt;input\u0026gt; \u0026lt;keygen\u0026gt; \u0026lt;link\u0026gt; \u0026lt;meta\u0026gt; \u0026lt;param\u0026gt; \u0026lt;source\u0026gt; \u0026lt;track\u0026gt; \u0026lt;wbr\u0026gt;  Click here for more information regarding Empty Elements\n"
+},
+{
+	"uri": "/00-class-intro-tools-github/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Introduce tools you will be using throughout the class\n Achieve high-level understanding of git and why developers use it\n Introduce students to a git workflow that will be used to submit (and receive feedback on) assignments\n  "
+},
+{
+	"uri": "/01-html-basics/",
+	"title": "HTML Basics",
+	"tags": [],
+	"description": "",
+	"content": " Lesson 01 HTML Basics "
+},
+{
+	"uri": "/01-html-basics/code-along/",
+	"title": "Code Along",
+	"tags": [],
+	"description": "",
+	"content": " Code Along: GA Press Release  As a class, we\u0026rsquo;ll walk through using html to build out an html version of a press release\n Using Sublime, open the folder called ga_press_release (found within the starter_code) folder\n  "
+},
+{
+	"uri": "/01-html-basics/lab/",
+	"title": "Lab",
+	"tags": [],
+	"description": "",
+	"content": " Lab: Cookie Recipe  Work individually or in teams to create an html version of a Cookie recipe depicted in the images below\n Using Sublime, open the folder called cookie_recipe files for this exercise can be found in your starter_code\n Tips\n Focus on the content first, then the image then the CSS There will be some items that you will need to look up, CSS is one of them (don\u0026rsquo;t worry we will be going over this in the next class, but part of being a developer is being able to google your way to solutions)   "
+},
+{
+	"uri": "/00-class-intro-tools-github/agenda/",
+	"title": "Agenda",
+	"tags": [],
+	"description": "",
+	"content": " Tools Overview \u0026amp; Folder Organization\n Git Overview\n GitHub Tutorial\n  "
+},
+{
+	"uri": "/00-class-intro-tools-github/tools/",
+	"title": "Tools",
+	"tags": [],
+	"description": "",
+	"content": " Project Folders and Best Practices for project organization\n Saving and Opening Files Sublime\n Web Browser Check (Google Chrome)\n Slack\n Quick intro to Chrome Developer Tools\n  "
+},
+{
+	"uri": "/00-class-intro-tools-github/git-overview/",
+	"title": "Git Overview",
+	"tags": [],
+	"description": "",
+	"content": " What is Git?  Version control for Programmers\n Like Microsoft Word \u0026ldquo;Track Changes\u0026rdquo; feature with superpowers\n Makes it easy for programmers to collaborate and work on the same codebase\n SVN (subversion) and CVS are other version control programs (Git is the most popular)\n  What is Github?  Web-based Git repository hosting service\n Built on top of git\n Home to +90% of all open source projects\n Morphed into a \u0026ldquo;social network\u0026rdquo; for developers\n  Vocabulary  Repository Commit Branch Merge Push Pull Fork Clone Pull Request  Respository  Most basic element of GitHub\n A repository contains all of the project files\n Stores each file\u0026rsquo;s revision history\n Repositories can have multiple collaborators and can be either public or private.\n  Commit  A \u0026ldquo;revision\u0026rdquo;, is an individual change to a file (or set of files)\n Git\u0026rsquo;s version of \u0026ldquo;saving\u0026rdquo;\n Commits usually contain a commit message which is a brief description of what changes were made\n  Branch  Parallel version of a repository\n It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the \u0026ldquo;live\u0026rdquo; version.\n When you\u0026rsquo;ve made the changes you want to make, you can merge your branch back into the master branch to publish your changes\n  Merge  Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another\n This often happens as a Pull Request (which can be thought of as a request to merge)\n  Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  Fork  A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project\n Most commonly, forks are used to either propose changes to someone else\u0026rsquo;s project or to use someone else\u0026rsquo;s project as a starting point for your own idea\n  Clone  Copies a remote repository down to your computer and creates a link between the two  Pull Request  Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository\u0026rsquo;s collaborators. Pull requests each have their own discussion forum. See Using Pull Requests. Used to perform \u0026ldquo;Code Reviews\u0026rdquo; of other developers\u0026rsquo; work  Great resource for all things git can be found here\n "
+},
+{
+	"uri": "/00-class-intro-tools-github/github-tutorial/",
+	"title": "Git Tutorial",
+	"tags": [],
+	"description": "",
+	"content": " Initial Setup Step 1: Create a Github Account* *one-time step\n\u0026nbsp;\nStep 2: Download Github Desktop software* *one-time step\n\u0026nbsp;\nStep 3: Sign in to Github Account through the Github Desktop application  Github Desktop -\u0026gt; Preferences -\u0026gt; Accounts  *one-time step / Use your Github account username \u0026amp; password\n\u0026nbsp;\nStep 4: Create a folder named github in your \u0026ldquo;class\u0026rdquo; folder* *one-time step\n\u0026nbsp;\nStarting an Assignment Step 5a: Fork Instructor Repository  The link for the Instructor repository will be provided to you  \u0026nbsp;\nStep 5b: Fork Instructor Repository  Github will create a copy of the repo under your account  \u0026nbsp;\nStep 6: Confirm Repository was Successfully Forked \u0026nbsp;\nStep 7a: Clone Repository in Github \u0026nbsp;\nStep 7b: Click \u0026ldquo;Launch Application\u0026rdquo; button  This opens your Github Desktop application  \u0026nbsp;\nStep 7c: Select your \u0026ldquo;github\u0026rdquo; folder and click \u0026ldquo;clone\u0026rdquo;  This is where the project folder will live  \u0026nbsp;\nStep 8: Confirm Repo was created in Github Desktop \u0026nbsp;\nStep 9: Confirm project folder was created in \u0026ldquo;github\u0026rdquo; folder \u0026nbsp;\nStep 10a: Open project folder with sublime and add code (as you normally would) \u0026nbsp;\nStep 10b: View changes in Github Desktop \u0026nbsp;\nStep 11: Commit Your Changes \u0026nbsp;\nStep 12: Push your changes to Github.com \u0026nbsp;\nRepeat Steps 10 through 12 - as many times as needed\n \u0026nbsp;\nSubmitting Your Assignment Step 13a: Create a Pull Request in Github Desktop \u0026nbsp;\nStep 13b: Create a Pull Request in Github Desktop  Important: Pull request should be named: HW Submission from [Your Name]  \u0026nbsp;\nStep 13c: Create a Pull Request in Github Desktop \u0026nbsp;\nStep 14a: Confirm Creation of Pull Request on Github \u0026nbsp;\nStep 14b: Confirm Creation of Pull Request on Github \u0026nbsp;\nStep 14c: Confirm Creation of Pull Request on Github \u0026nbsp;\nReceive Feedback from Instructors Step 15a: Instructors will leave feedback and let you know what needs to be fixed  Hammer emojis indicate something that needs to be fixed  \u0026nbsp;\nStep 15b: Students can add comments of their own to get clarification \u0026nbsp;\nStep 16: Student Fixes Any Outstanding Issues (Hammer emojis) Repeat Steps 10 through 12\n Make your changes in sublime\n Commit your changes\n Push your changes\n  Do Not create a new Pull Request Your existing Pull Request will automatically be updated\n \u0026nbsp;\nStep 17: Instructor Reviews Changes  Instruction team will receive an email notification letting them know your Pull Request was updated Instruction team will confirm that \u0026ldquo;hammers\u0026rdquo; were addressed  \u0026nbsp;\nStep 18: Instructor Approves Your Assignment  Student will receive a \u0026ldquo;Thumbs Up\u0026rdquo; emoji indicating that the assignment was approved  "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/",
+	"title": "FEWD Course Slides",
+	"tags": [],
+	"description": "",
+	"content": " Course Slides for Frontend Web Development Welcome to Frontend Web Development\nTools: Here are the tools we\u0026rsquo;ll be using throughout the class. Pl you will need the following:\n Atom: We\u0026rsquo;ll be using Atom as our text editor for the class. You can download Atom for free here Chrome Web Browser: Download link Github Desktop: Download link  Resources  Mozilla Developer Network (MDN):  The best resource for all things HTML, CSS and javascript on the web can be found on Mozilla\u0026rsquo;s Development Network   "
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

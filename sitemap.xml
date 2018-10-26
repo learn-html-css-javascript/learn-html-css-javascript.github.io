@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/01-html-basics/objectives/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/agenda/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/html-structure/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/html-tag-anatomy/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/00-class-intro-tools-github/</loc>
+    <lastmod>2018-10-26T12:37:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/html-attributes/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/tag-overview/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/empty-elements/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/00-class-intro-tools-github/objectives/</loc>
+    <lastmod>2018-10-26T12:57:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/</loc>
+    <lastmod>2018-10-26T12:37:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/code-along/</loc>
+    <lastmod>2017-01-22T18:08:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/01-html-basics/lab/</loc>
+    <lastmod>2017-01-22T18:08:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/00-class-intro-tools-github/agenda/</loc>
+    <lastmod>2018-10-26T12:58:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/00-class-intro-tools-github/tools/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/00-class-intro-tools-github/git-overview/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/00-class-intro-tools-github/github-tutorial/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

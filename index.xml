@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FEWD Course Slides on Frontend Web Development</title>
+    <link>/</link>
+    <description>Recent content in FEWD Course Slides on Frontend Web Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:05:18 -0500</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/01-html-basics/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/objectives/</guid>
+      <description> Understand how web pages are structured
+ Introduce some of the most frequently used html tags
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>/01-html-basics/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/agenda/</guid>
+      <description> HTML Structure
+ Overview of basic HTML Tags
+ Code Along (GA Press Release)
+ Lab (Cookie Recipe)
+  </description>
+    </item>
+    
+    <item>
+      <title>HTML Structure</title>
+      <link>/01-html-basics/html-structure/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/html-structure/</guid>
+      <description>Front page of a newspaper
+ Which elements stand out and why?
+ What would happen if every word was the same size font?
+ Structure helps readers better understand the stories written in the newspaper
+  Word document
+HTML document
+ The above all have something in common - they are all documents
+ The same principles that apply to newspapers and documents also apply to html pages</description>
+    </item>
+    
+    <item>
+      <title>HTML Tag Anatomy</title>
+      <link>/01-html-basics/html-tag-anatomy/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/html-tag-anatomy/</guid>
+      <description>What is a Tag?  Tags act like containers, they tell the browser what type of information lies between (aka the content) the opening and closing tag
+ Opening Tag
+ comprised of character(s) surrounded by less than and equal than signs (brackets) characters within the brackets indicates the tags purpose  Closing Tag
+ Same as opening tag except closing tag contains a forward slash which informs browser that element has ended   Terms “tags” and “elements” are often used interchangeably</description>
+    </item>
+    
+    <item>
+      <title>HTML Attributes</title>
+      <link>/01-html-basics/html-attributes/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/html-attributes/</guid>
+      <description>What is an HTML Attribute?  Attributes provide additional information about the contents of the an element.
+ They are placed in the opening tag
+ They have two parts: name, value
+  Attribute Structure  Attribute Name
+ Indicates what kind of extra information you are supplying to the browser about the content in the element characters within the brackets indicates the tags purpose  Attribute Value</description>
+    </item>
+    
+    <item>
+      <title>Tag Overview</title>
+      <link>/01-html-basics/tag-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/tag-overview/</guid>
+      <description>&amp;lt;html&amp;gt;, &amp;lt;body&amp;gt;, &amp;lt;head&amp;gt;, &amp;lt;title&amp;gt;  &amp;lt;html&amp;gt;
+ Represents the root (top-level element) of an HTML document, so it is also referred to as the root element
+ All other elements must be descendants of this element.
+  &amp;lt;body&amp;gt;
+ Everything inside the body tag is shown inside the browser window  &amp;lt;head&amp;gt;
+ Contains information about the page (vs shown on the pages
+ Title and Links to other files are usually specified in the head element</description>
+    </item>
+    
+    <item>
+      <title>Empty Elements</title>
+      <link>/01-html-basics/empty-elements/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/01-html-basics/empty-elements/</guid>
+      <description>What are Empty Elements?  Empty elements are elements that do not have a closing tag  &amp;lt;!-- p tags are NOT empty elements because they have a closing tag (&amp;quot;&amp;lt;/p&amp;gt;&amp;quot;) --&amp;gt; &amp;lt;p&amp;gt; I am not an empty element &amp;lt;/p&amp;gt; &amp;lt;!-- img tags are considered empty elements because they DO NOT have a closing tag --&amp;gt; &amp;lt;img src=&amp;quot;images/team_hands&amp;quot; alt=&amp;quot;a group of people touching hands in a star formation&amp;quot; title=&amp;quot;teamwork is awesome&amp;quot;&amp;gt;   Empty elements cannot contain child elements (i.</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/00-class-intro-tools-github/objectives/</link>
+      <pubDate>Fri, 26 Oct 2018 12:57:40 -0400</pubDate>
+      
+      <guid>/00-class-intro-tools-github/objectives/</guid>
+      <description> Introduce tools you will be using throughout the class
+ Achieve high-level understanding of git and why developers use it
+ Introduce students to a git workflow that will be used to submit (and receive feedback on) assignments
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>/01-html-basics/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/01-html-basics/code-along/</guid>
+      <description> Code Along: GA Press Release  As a class, we&amp;rsquo;ll walk through using html to build out an html version of a press release
+ Using Sublime, open the folder called ga_press_release (found within the starter_code) folder
+  </description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>/01-html-basics/lab/</link>
+      <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
+      
+      <guid>/01-html-basics/lab/</guid>
+      <description> Lab: Cookie Recipe  Work individually or in teams to create an html version of a Cookie recipe depicted in the images below
+ Using Sublime, open the folder called cookie_recipe files for this exercise can be found in your starter_code
+ Tips
+ Focus on the content first, then the image then the CSS There will be some items that you will need to look up, CSS is one of them (don&amp;rsquo;t worry we will be going over this in the next class, but part of being a developer is being able to google your way to solutions)   </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>/00-class-intro-tools-github/agenda/</link>
+      <pubDate>Fri, 26 Oct 2018 12:58:01 -0400</pubDate>
+      
+      <guid>/00-class-intro-tools-github/agenda/</guid>
+      <description> Tools Overview &amp;amp; Folder Organization
+ Git Overview
+ GitHub Tutorial
+  </description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>/00-class-intro-tools-github/tools/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/00-class-intro-tools-github/tools/</guid>
+      <description> Project Folders and Best Practices for project organization
+ Saving and Opening Files Sublime
+ Web Browser Check (Google Chrome)
+ Slack
+ Quick intro to Chrome Developer Tools
+  </description>
+    </item>
+    
+    <item>
+      <title>Git Overview</title>
+      <link>/00-class-intro-tools-github/git-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/00-class-intro-tools-github/git-overview/</guid>
+      <description>What is Git?  Version control for Programmers
+ Like Microsoft Word &amp;ldquo;Track Changes&amp;rdquo; feature with superpowers
+ Makes it easy for programmers to collaborate and work on the same codebase
+ SVN (subversion) and CVS are other version control programs (Git is the most popular)
+  What is Github?  Web-based Git repository hosting service
+ Built on top of git
+ Home to +90% of all open source projects</description>
+    </item>
+    
+    <item>
+      <title>Git Tutorial</title>
+      <link>/00-class-intro-tools-github/github-tutorial/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>/00-class-intro-tools-github/github-tutorial/</guid>
+      <description>Initial Setup Step 1: Create a Github Account* *one-time step
+&amp;nbsp;
+Step 2: Download Github Desktop software* *one-time step
+&amp;nbsp;
+Step 3: Sign in to Github Account through the Github Desktop application  Github Desktop -&amp;gt; Preferences -&amp;gt; Accounts  *one-time step / Use your Github account username &amp;amp; password
+&amp;nbsp;
+Step 4: Create a folder named github in your &amp;ldquo;class&amp;rdquo; folder* *one-time step
+&amp;nbsp;
+Starting an Assignment Step 5a: Fork Instructor Repository  The link for the Instructor repository will be provided to you  &amp;nbsp;</description>
+    </item>
+    
+  </channel>
+</rss>
